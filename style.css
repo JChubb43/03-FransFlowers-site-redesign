@@ -1,6 +1,6 @@
 /* Base Styles */
 * {
-  margin: 0;
+  margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
@@ -63,6 +63,26 @@ nav a {
 /* About Section */
 
 /* Specials Section */
+.specials {
+  padding: 3em;
+}
+
+.special-list {
+  display: flex;
+  gap: 20px;
+  max-width: 1200px;
+  overflow-x: auto;
+}
+
+.special-offer {
+  box-sizing: border-box;
+  flex: 20;
+  position: relative;
+  padding: 24px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
 
 /* Visit Us Section */
 
