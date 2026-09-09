@@ -1,14 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Fran's Flowers | Boutique Flower Shop in San Francisco</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Adding Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header>
+      <nav class="navigation">
+        <a href="#about">About</a>
+        <a href="#specials">Specials</a>
+        <a href="#contract">Visit Us</a>
+      </nav>
+
       <div class="header-content">
         <h1><span class="accent">Fran's</span> Flowers</h1>
         <p class="tagline">Brightening San Francisco since 1995</p>
@@ -24,7 +38,7 @@
     </div>
 
     <main>
-      <section class="about-us">
+      <section class="about-us" id="about">
         <h2><span class="accent">About</span> Us</h2>
         <p>
           Fran's Flowers was founded in 1995 by Francine Miller to share joy,
@@ -37,7 +51,7 @@
         <p>Thank you for helping us grow kindness one flower at a time.</p>
       </section>
 
-      <section class="specials">
+      <section class="specials" id="specials">
         <h2><span class="accent">Weekly</span> Specials</h2>
         <div class="specials-list">
           <article class="special-offer">
@@ -63,7 +77,7 @@
         </div>
       </section>
 
-      <section class="visit-us">
+      <section class="visit-us" id="contact">
         <h2><span class="accent">Visit</span> Us</h2>
         <div class="contact-info">
           <p>Come in and say hi!</p>
