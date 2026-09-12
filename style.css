@@ -54,7 +54,7 @@ a:hover {
 }
 
 .accent {
-  color: #ba404f;
+  font-style: italic;
 }
 
 /* Images */
@@ -143,16 +143,18 @@ section {
 /* Visit Us Section */
 .visit-us {
   border-top: 1px solid black;
-  padding-top: 60px;
 }
 .contact-info {
-  margin-bottom: 34px;
+  margin: 0px 0px 34px;
+}
+.invite {
+  font-weight: bold;
+  font-size: 1.2em;
 }
 .address-block,
 .phone-block {
-  display: flex;
   align-items: center;
-  margin: 16px 0;
+  margin: 16px 0px;
 }
 
 iframe {
