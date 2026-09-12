@@ -1,6 +1,6 @@
 /* Base Styles */
 * {
-  margin: 0px;
+  margin: 0px auto;
   padding: 0px;
   box-sizing: border-box;
 }
@@ -13,9 +13,15 @@ body {
   line-height: 1.6em;
 }
 
-a {
-  color: black;
-  text-decoration: none;
+.header-content,
+.footer-content,
+main {
+  max-width: 1200px;
+}
+
+.tagline {
+  color: grey;
+  letter-spacing: 1px;
 }
 
 /* Typography */
@@ -29,6 +35,7 @@ h3 {
 
 h1 {
   font-size: 5em;
+  margin-top: 1em;
 }
 h2 {
   font-size: 3em;
@@ -37,61 +44,130 @@ h2 {
 h3 {
   font-size: 2em;
 }
+
 /* Links & Accents */
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.accent {
+  color: #ba404f;
+}
 
 /* Images */
+img {
+  max-width: 100%;
+}
 
 /* Navigation Bar */
 .navigation {
   padding: 24px;
-  padding-right: 3em;
-  background: white;
-
-  display: flex;
-  align-items: center;
-  justify-content: right;
+  background: rgb(255, 249, 242);
+  text-align: right;
 }
 
 nav a {
-  margin-left: 28px;
+  padding-left: 32px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: grey;
 }
 
 /* Hero Section */
+#hero-container {
+  max-width: 1150px;
+  padding: 32px 16px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px;
+}
 
 /* Main Content */
+main {
+  padding: 0 16px;
+}
+
+section {
+  padding: 40px 0;
+  max-width: 800px;
+}
 
 /* About Section */
+.about-us {
+  border-bottom: 1px solid black;
+  padding-bottom: 60px;
+  padding-top: 0px;
+}
 
 /* Specials Section */
 .specials {
-  padding: 3em;
+  max-width: 1150px;
+  padding: 60px 0;
 }
 
-.special-list {
+.specials-list {
   display: flex;
-  gap: 20px;
-  max-width: 1200px;
-  overflow-x: auto;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .special-offer {
-  box-sizing: border-box;
-  flex: 20;
-  position: relative;
-  padding: 24px;
+  flex: 1 1 250px;
+  max-width: 350px;
+
   background-color: white;
-  border: 1px solid grey;
   border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+  line-height: 2.3em;
+}
+
+.price-now {
+  font-size: 1.5em;
 }
 
 /* Visit Us Section */
+.visit-us {
+  border-top: 1px solid black;
+  padding-top: 60px;
+}
+.contact-info {
+  margin-bottom: 34px;
+}
+.address-block,
+.phone-block {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
 
 iframe {
   width: 100%;
   height: 350px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
 footer {
   margin-top: 48px;
+  padding: 32px 16px;
+
+  background-color: #2d5325;
+  color: white;
 }
