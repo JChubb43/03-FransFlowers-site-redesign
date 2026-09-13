@@ -110,10 +110,17 @@ section {
   padding-top: 0px;
 }
 
+/* Seasonal Section */
+.seasonal {
+  max-width: 1150px;
+  padding: 60px 0;
+}
+
 /* Specials Section */
 .specials {
   max-width: 1150px;
   padding: 60px 0;
+  border-bottom: 1px solid black;
 }
 
 .specials-list {
@@ -138,6 +145,45 @@ section {
 
 .price-now {
   font-size: 1.5em;
+}
+
+/* Customer Testimonials */
+.testimonials {
+  max-width: 1150px;
+  padding: 60px 0;
+}
+
+.testimonals-list {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.customer-testimonal {
+  flex: 1 1 250px;
+  max-width: 350px;
+
+  background-color: white;
+  border-radius: 8px;
+  padding: 36px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+  line-height: 2.3em;
+}
+
+.quote {
+  font-size: 1.5em;
+  text-align: left;
+}
+.quotation {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.name {
+  font-size: 1.2em;
+  text-align: right;
 }
 
 /* Visit Us Section */
@@ -166,10 +212,22 @@ iframe {
 }
 
 /* Footer */
-footer {
+footer{
   margin-top: 48px;
   padding: 32px 16px;
 
   background-color: #2d5325;
   color: white;
+}
+
+.footer-nav {
+  padding-top: 48px;
+  padding-right: 12px;
+}
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+}
+.footer-nav a:hover {
+  color: grey;
 }
