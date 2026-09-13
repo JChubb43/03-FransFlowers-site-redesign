@@ -112,8 +112,31 @@ section {
 
 /* Seasonal Section */
 .seasonal {
-  max-width: 1150px;
   padding: 60px 0;
+}
+.seasonal-pick{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  gap: 25px;
+}
+.seasonal img {
+  width: 50%;
+  height: 600px;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px;
+}
+.detail {
+  font-style: italic;
+  font-size: 1.5em;
+  padding-top: 40px;
 }
 
 /* Specials Section */
