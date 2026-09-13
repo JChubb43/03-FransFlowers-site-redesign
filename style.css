@@ -20,7 +20,7 @@ main {
 }
 
 .tagline {
-  color: grey;
+  font-style: italic;
   letter-spacing: 1px;
 }
 
